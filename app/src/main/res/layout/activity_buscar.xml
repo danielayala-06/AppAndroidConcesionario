@@ -14,12 +14,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
+            android:id="@+id/edtIdEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Id Buscado"
             android:layout_marginRight="30dp"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:inputType="number"/>
         <Button
+            android:id="@+id/btnBuscarVehiculo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Buscar"
